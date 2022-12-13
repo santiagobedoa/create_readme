@@ -12,8 +12,8 @@ This project use requests and beautifull Soup libraries to automatize the proces
 In your file .bashrc or .zshrc write the lines:
 
 ```bash
-export PATH="$HOME/projects/holbi_scraper:$PATH"
-alias make_readme="make_readme.py"
+export PATH="$HOME/projects_folder/create_readme:$PATH"
+alias make_readme="create_readme.py"
 ```
 
 Put your password and your UserName like a enviroment variable in your workspace or CLI named "HOLBERTON_PASSWD" ex:
@@ -37,7 +37,7 @@ USAGE: make_readme NUMBER_OF_PROJECT 0/1
 or
 
 ```bash
-HOLBERTON_PASSWD="Your password" HOLBERTON_EMAIL="Your Holberton email" make_readme NUMBER_OF_PROJECT 0/1
+HOLBERTON_PASSWD="Your password" HOLBERTON_EMAIL="Your Holberton email" create_readme NUMBER_OF_PROJECT 0/1
 ```
 
 ##### Options
